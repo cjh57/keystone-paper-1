@@ -1,0 +1,215 @@
+%\documentclass[mathsansserif,xcolor={dvipsnames}]{beamer}
+\documentclass{article}
+\usepackage{mathtools}
+\DeclarePairedDelimiter{\parens}{\lparen}{\rparen}
+
+\usepackage[english]{babel}
+\usepackage[dvipsnames]{xcolor}
+%\newcommand{\cjh}[1]{\textcolor{blue}{(cjh: #1)}}
+%\newcommand{\stupid}[1]{#1}
+%\newcommand{\Ae}{\stupid{\textit{Ae.\ aegypti}}}
+
+\newcommand{\alb}{\textit{Ae. albopictus}}
+\newcommand{\atl}{\textit{Ae. atlanticus}}
+
+
+\newcommand{\cjh}{\textcolor{blue}{cjh}}
+\newcommand{\tjh}{\textcolor{red}{tjh}}
+
+\newcommand{\msg}[3]{(#1 $\rightarrow$ #2: #3)}
+
+\newcommand{\mcc}[1]{\msg\cjh\cjh{#1}}
+\newcommand{\mct}[1]{\msg\cjh\tjh{#1}}
+\newcommand{\mtc}[1]{\msg\tjh\cjh{#1}}
+\newcommand{\mtt}[1]{\msg\tjh\tjh{#1}}
+
+\title%[Keystone Virus in Florida]
+{Current Research: Keystone Virus in Florida (primarily), and Relevant Features of California Serogroup Viruses in General (as necessary)}
+
+\author%[chrishen@umich.edu] % (optional, use only with lots of authors)
+{Christopher James Henry}
+
+\date{\today}
+
+\begin{document}
+    \titlepage
+    
+    \mcc{Sample reminder from Chris to himself} 
+
+    \mct{Sample message from Chris to Tom} 
+
+    \mtc{Sample message from Tom to Chris} 
+
+    \mtt{Sample reminder from Tom to himself} 
+
+%Because the subarachnoid space is continuous around the brain, spinal cord, and
+%optic nerves, an infective agent gaining entry to any one part of the space
+%allows it to spread rapidly to all of it, even its most remote recesses; in
+%other words, meningitis is always cerebrospinal. -- from adams & victor's
+
+    \textbf{This \textit{should} be a tracked change.}
+
+    \section{Introduction}
+        Keystone virus is a mosquito-transmitted virus in the California encephalitis serogroup of genus Orthobunyavirus. Previous studies suggest that approximately 20\% of individuals in the Tampa Bay area may have been test previously infected with it, but evidence on the health effects of infection in humans are lacking. Other viruses in the same serogroup are known to produce infections that typically are asymptomatic or characterized only by mild, generic symptoms (e.g., fever and rash), but that can also result in meningitis and/or encephalitis, conditions that can be result in severe, long-lasting or permanent sequalae. It is not known whether this is true of Keystone virus as well. Both meningitis and ecencephalitis have the characteristic that a large fraction of hospitalizations \mcc{}(XX\% for meningitis, YY\% for encephalitis) either result in no identified etiology, or an etiology that is identified only as ``probably viral.'' There is evidence that many of these are likely due to arboviral (insect- or tick-transmitted virus) infections; it is plausible that in Florida, Keystone virus may be a substantial contributor to such cases.
+
+        Assessing the public health impact of Keystone virus in Florida, and what can be done to combat it, requires answers to both basic science questions and statistical questions about health effects, costs, and prognoses. As many of these questions are currently unanswered, and some of them even unraised, the first step in answering them is to enumerate what they are. Broadly speaking, they can be grouped into four categories, or super-questions:
+        \begin{enumerate}
+            \item ``What are the basic transmission dynamics of Keystone virus, and how, if at all, are they currently changing?''
+            \item ``How many people are infected with Keystone virus each year in Florida?''
+            \item ``What is the probability of an infection resulting in each acute disease state (i.e., none (fully asymptomatic), generic symptoms (e.g.,fever and rash), meningitis without encephalitis, and encephalitis or meningoencephalitis)?''
+            \item ``What is the expected cost --- in dollars, in disability, and in pain and suffering --- of each of those acute disease states, when caused by Keystone virus?''
+        \end{enumerate}
+
+        In the following sections, I will summarize what each of those broad questions entails, what we know already, and what narrower questions still need to be answered.
+
+    \section[Transmission dynamics]{Question 1: What are the transmission dynamics, insofar as they are relevant to cost and/or control?}
+        \mcc{Rework entire para}
+        The potentially relevant sub-questions here can be broadly split into two categories. First, there are questions of basic science, such as \dots \mcc{elaborate} These are important because \dots \mcc{elaborate} Second, there are questions that relate to the potential for, and cost-effectiveness of, intervention at this time. These include questions such as ``Who is at risk, and how much,'' ``What if any interventions are possible,'' and ``How much are each of those interventions likely to cost?''
+
+        Regarding the basic science, let us start with what we already know:
+
+        \mcc{From background}
+        \subsection{California serogroup viruses}
+            Keystone virus (KEYV) belongs to the California serogroup, a subgenus\mcc{?} of viruses in the genus \textit{Orthobunyavirus}, named for its earliest-discovered\mcc{?} member, California encephalitis virus (CEV). Viruses in this serogroup generally \mcc{always?} exhibit a two-host cycle, involving mosquitos (always?) and mammals (always?) \mcc{I know that birds and non--mosquito arthropods can both technically be infected, but I'm not sure if there's any evidence of reservoir host status}; in most cases, the mammals involved are small rodents or lagomorphs. Thus, they fall into the broader category of viruses transmitted by arthropod vectors, known as \textit{arboviruses} (a shortened form of ``arthropod-borne viruses'').
+        
+        \subsection{Keystone Virus and its hosts}
+            Keystone virus was first isolated in 1962 in the Tampa Bay area during a St. Louis Encephalitis epidemic \cite{asdf}, and first identified as a distinct species in 1964. It is primarily transmitted by the floodwater mosquito \textit{Aedes} (or \textit{Ochlerotatus}) \textit{atlanticus}. Its point prevalence in mosquitos of that species has consistently been found to be approximately 0.003 across several surveys, conducted in different years. The greatest amount of research on both vertebrate hosts and transmission dyanmics of KEYV was done in the Pokomoke Swamp in Maryland, between 19XX and 19YY. In that region, the primary vertebrate hosts of KEYV are rabbits and grey squirrels. A smaller amount of research on the same subject, done in Florida, supports a major role for rabbits and grey squirrels as well. In addition, there is some evidence that cotton rats may also be important hosts in Florida\cite{asdf}; cotton rats are not found as far North as the Pokomoke Swamp. In all of these primary hosts, KEYV produces a 2--6 day viremia, with generally mild symptoms.
+
+            A number of other hosts \mcc{horses, etc.} show a high seroprevalence of neutralizing antibodies to KEYV when raised in enzootic areas, but do not appear to develop detectable viremia, and are therefore highly unlikely to play a significant role in transmission dynamics. \mcc{Elaborate (briefly!) about sentinel potential}
+
+            \mcc{Elaborate about Pokomoke Swamp results, temporal, etc.}
+            
+            However, the Pokomoke Swamp is hardly a perfect model for transmission dynamics in Florida, for a number of reasons. As already noted, there are no cotton rats in the Pokomoke Swamp \mcc{\dots} It is near the Northern limit of \textit{Ae. atlanticus}'s range, and has rainfall that is \mcc{confirm} substantially more variable than that in, for example, the Tampa Bay area.
+
+        \subsection{Routes of transmission of KEYV}
+            Since the initial discovery of KEYV, it has been believed to be transmitted horizontally, in a two-host cycle, mosquito-to-vertebrate and vertebrate-to-mosquito. This is indeed supported by experimental evidence. What was not realized until substantially later is that KEYV (along with various other California serogroup viruses) was also transmitted vertically, from an infected female mosquito to a fraction of her eggs. There is evidence, as regards other California serogroup viruses, that vertically infected mosquitos are themselves more capable of vertical transmission than horizontally infected mosquitos, a phenomenon known as \textit{stabilized transmission}. Somewhat more surprisingly, there is also evidence that vertically infected mosquitos may be more efficient horizontal transmitters as well. Indeed, horizontally-infected \textit{Ae. albopictus} appear to transmit quite poorly, with one experiment finding only 1 transmission out of \mcc{XX} bites.
+
+            There is also some circumstantial evidence supporting the possibility of within-species horizontal transmission, both among mosquitos (during copulation) and among cotton rats (through urine and/or bites). Neither of these, however, is confirmed. \mcc{}
+
+        \subsection{The question of \textit{Aedes albopictus}}
+            \textit{Aedes} (Or \textit{Ochlerotatus}) \textit{albopictus}, the Asian Tiger Mosquito, is an invasive species that has been spreading in the United States ever since its original introduction into Houston in 19XX, most likely in a shipment of used tires. It is more closely associated with humans than \textit{Ae. albopictus}, has a larger range, and is present for a greater portion of the year. Most of the work on prevalence of KEYV infection in different mosquito species was done before the arrival of \textit{Ae. albopictus}, either in the region where the work was being done, or in the US as a whole. Multiple studies since then have made it clear that \textit{Ae. albopictus} is at least occasionally infected with KEYV. This raises the question of whether it could play a role in increasing the enzootic range of KEYV and/or the frequency with which humans in that range are infected.
+
+            However, other studies have been cited as providing evidence that, while \textit{Ae. albopictus} is capable of being infected with KEYV, it is at most poorly capable of transmitting KEYV to vertebrates in turn. However, these studies have exclusively \mcc{?} looked at horizontally-infected \alb, and have (implicitly) compared the poor transmission observed to either ecological transmission by all \atl, regardless of how they were infected, or ``transmission'' to suckling mice by direct cerebral injection of pureed \atl. Given evidence of poor transmission by horizontally-infected \atl, this is clearly a poor comparison. Testing whether \alb can be vertically infected with KEYV and, if so, how readily vertically-infected \alb transmit would be an obvious next step in assessing the potential for \alb to play a non-trivial role in Keystone virus transmission.
+
+
+    \section[Incidence of infection]{Question 2: What is the incidence of (relevant) infection?}
+
+        \mcc{Incorporate} Serosurveys of humans in the Tampa Bay area have found approximately 20\% seroprevalence, i.e., that approximately 20\% of humans tested had neutralizing antibodies to Keystone virus that were suggestive of past infection.
+            \mcc{Add details}
+
+        There are a number of sub-questions to address, regarding the incidence of infection. The first is what exactly is meant by a ``relevant infection.'' Partly, this is a philosophical question, and partly a practical one. In a philosophical sense, there is the question of what constitutes ``an infection'' in the first place. The first step in any (potential) human infection with KEYV is likely to be the injection of virions into the bloodstream by a mosquito bite. If these immediately destroyed by the immune system, without infecting any human cells \mcc{Do we know what cells KEYV colonizes?}, it would seem rather odd to describe that as ``an infection.'' At what point, then, does the term become appropriate? Any reproduction? A positive growth rate in the number of viable virions? Detectable viremia? (And by what assays?)
+
+        \mcc{Elaborate on philosophical questions} 
+        
+        Practically, we want a definition that will encompass all or almost all exposures to Keystone virus that have a non-negligible expected cost, that will have well-defined risks associated with it \mcc{expand\dots}, and that will be feasible to measure.
+
+        \mcc{Something about incidence vs. prevalence?}
+
+        In practice, the distinction between incident and prevalent infections is likely to be of little importance for Keystone, and direct measurement of infections is likely to be realistically impossible at the present time. In vertebrates believed to be reservoir hosts, viremia lasts for less than 1 week, possibly only once in a lifetime \cite{asdf}. \mcc{What is the distribution of infection length in humans for LACV and JCV?} Given that Keystone appears to rarely present with specific \mcc{weak phrasing} symptoms in humans, and so it would be challenging to narrow down the population further, attempting to obtain an reliable direct estimate of the number of incident or prevalent (i.e., \mcc{probably} incident within the last week) infections would be cost-prohibitive. \mcc{Do we have any estimates on the fraction of LACV and JCV infections that produce specific symptoms?}
+        
+        %If we make a liberal assumption that the measured (approximately) 20\% seroprevalence represents the fraction of the population infected by age 20, this would still imply that the probability of being currently infected, for individuals under age 20, is on the order of 1 in 5000.
+
+        However, there is an alternative approach that we can use, looking at \textit{seroprevalence}, i.e., the prevalence in the human population of neutralizing antibodies to KEYV at titers that are likely to indicate a past Keystone infection. To assess this, multiple \textit{serosurveys} have been done in the Tampa Bay area\cite{asdf}, and have consistently found a seroprevalence of approximately 20\%\cite{asdf}. \mcc{elaborate}
+
+        While using seroprevalence (or, more generally immunological \mcc{expand}) data to make inferences about past incidence allows us to get around the expense of attempting to measure incidence directly, it introduces several problems of its own First, it is not clear that all infections that carry a meaningful risk of severe negative health outcomes will necessarily result in seroconversion if the infected individual survives. Indeed, one would imagine that immunosuppression (due to HIV, drugs, genetic defects, etc.) would both increase the risk of severe outcomes and decrease the likelihood of generating neutralizing antibodies (if one survives). \mcc{Also, the dead won't be measured at all; rephrase this idea and add} There is also evidence from studies of transmission to Grey Squirrels in the Pokomoke swamp\cite{asdf} that initially seropositive squirrels can revert to seronegativity; if this is applicable to humans as well, then seroprevalence will underrepresent the cumulative incidence of having had at least one infection resulting in seroconversion. The same is true if (re-)infection is possible despite seropositivity. \mcc{Add: And how would we know, given squirrel lack of viremia on reinfection?} On the other hand, cross-reactivity with antibodies induced by other California serogroup viruses may lead to seroprevalence \textit{over}-estimating the cumulative incidence of Keystone infection.
+
+        \mcc{Stick point about horses here.}
+
+        In addition to addressing the above concerns, in order to accurately estimate the incidence of relevant KEYV infections in the state of Florida using serological data, it would also be necessary to perform a serosurvey for the state as a whole, or some reasonably representative subset thereof, rather than solely for the Tampa Bay area. In doing so, it would be highly desirable to record the seroprevalence not only overall, but also by age. This would offer additional data to be included in a model of patterns of seroconversion (taken as a proxy for infection, with the appropriate caveats) and, if applicable seroreversion. However, care must be used in the interpretation of such data if infection rates are changing over time, e.g., because of changing patterns of land use, or increased transmission due to the spread of \alb or other invasive mosquito species.
+
+        \mcc{\alb\ stuff goes here --- later update: Why did I write that? Is it because of possible rapidly changing patterns of infection?}
+
+        \subsection{Recent case}
+            While the serosurvey results are certainly suggestive, until recently, there had been no confirmed human cases of current KEYV infection. In 2016, however, a 16 year old male presented at Shands\mcc{?} Hospital in Gainesville with symptoms of low fever, mild fatigue, and a mild rash. These are mild, common, and non-specific symptoms in children and adolescents, which often receive no diagnosis beyond ``it's a virus.'' In this case, however, an unusually extensive workup was performed due to concerns about possible Zika infection. As a result, Keystone virus was detected in the patient's urine.\cite{asdf}
+        
+
+        \subsection{Which raises the question . . .}
+            Combined with serosurvey data, and what we know about other California serogroup viruses, this all raises the question of whether Keystone virus is in fact a relatively common childhood infection in Florida, that is massively undiagnosed for a variety of reasons. First of all, infections may generally be asymptomatic. Moreover, evidence from presumptive reservoir hosts, weanling laboratory mice\mcc{Confirm this --- I know that unlike sucklings, they don't \textit{die}}, and the one directly observed human infection to date all point to infections that, when they do present with symptoms, present most frequently with mild and non-specific symptoms that are unlikely to provoke anywhere near the level of effort that was involved in obtaining a specific etiology for the 2016 case. Presumptively viral fever and rash are often not being worked up beyond exclusion of major pathogens of concern. Furthermore, there may be some difficulty in detecting infection even when looking for it \mcc{add more details on the procedure involved in the 2016 case, marginal plasmid detection, etc.}.
+
+            If so, this raises the question of whether its public health significance has been likewise underestimated.
+
+
+    \section[Probabilities of disease, given infection]{Question 3: What are the probabilities of various acute disease states, conditional on infection?}
+        As discussed in the previous section, it is likely that the most common acute disease state caused by KEYV in humans is fever and rash \mcc{(or possibly just fever)?}, without any more severe symptoms. This is still not necessarily innocuous, even assuming that the fever is not high enough to be dangerous. It is still a potential source of numerous costs, financial or otherwise, as discussed in the next section. Nevertheless, its expected harms are much less than those of some other plausible outcomes.
+
+        \mcc{Should have something about probability of fever, probably referencing what we know about other California serogroup viruses.}
+
+        \mcc{Check estimated phylogenies. [not specific to here; just a reminder]}
+
+        In particular, several American species within the California serogroup are known are known to cause meningitis and/or encephalitis in humans, including CEV, Jamestown Canyon Virus, and, La Crosse Virus (LACV); the latter is believe to be one of \mcc{?} the most common arboviral causes of encephalitis in the United States today.
+
+
+        \mcc{Move expected cost bits of the following to the next section}
+        \subsection{Meningitis and encepthalitis}
+            Meningitis and encephalitis are a pair of inflammatory conditions of the central nervous system of variable etiology and prognosis.
+            
+            \subsubsection{Meningitis}
+            Meningitis is an acute inflammation of the \textit{meninges}, the 3 membranes that surround the brain and spinal cord. The classic symptoms of meningitis (verify which are the classic ``triad'') are headache, fever, stiff neck, and photophobia; however, all of them vary substantially in frequency depending on the underlying etiology. The prognosis also varies greatly by etiology, including as regards the probability of hospitalization and expected duration of and cost of hospital stay, the probability of complications, the probability of mortality, and the risk of long-term sequelae.
+
+        \subsubsection{Viral Meningitis}
+            Over half of all meningitis cases in the modern US are viral in nature. These are generally less severe than bacterial or fungal meningitis, to the point that some sources refer to viral meningitis as a ``benign, self-limiting condition.''\cite{asdf} Because of this comparative mildness, it is believe to be heavily underdiagnosed. Numerous different phyla (?specify) of viruses can cause meningitis, but the most common in the modern US are various non-polio enteroviruses. For meningitis caused by some of these pathogens (herpes simplex, varicella zoster, and cytomegalovirus, all of which are herpesviruses), there are specific treatments. But for most, only supportive care is possible. This fact, combined with a generally mild course of disease that often does not require supportive care, results in many viral meningitis cases that are diagnosed being diagnosed in an outpatient setting, without subsequent hospitalization, or attempts to identify the specific agent beyond determining that it is not a herpesvirus. As a result, up to $1/3$ of diagnosed viral meningitis cases do not receive a more specific diagnosis.
+
+            \mcc{link to underdetection}
+
+        \subsubsection{Encephalitis}
+            \mcc{Is ``survivors'' the right word connotationally?}
+
+            Encephalitis is an inflammation of the brain itself, generally associated with altered mental status and other neurological symptoms. In-hospital mortality averages 5.6\% in the U.S., but varies immensely by cause. For survivors, long-term sequelae, sometimes severe, are more common than with meningitis. Over half all of cases of encephalitis in the US have no identified etiology.
+            
+        \subsubsection{Viral encephalitis}
+            Of encephalitis cases that do have an identified etiology, 48\% are viral; of these NN\% have no more detailed diagnosis. \mcc{link to underdetection} Overall mortality for viral encephalitis is 8.2\%, but ranges from $<1\%$ for some pathogens --- including La Crosse Virus, a close relative of Keystone virus --- up to effectively 100\% for some rare causes, such as rabies.
+
+            \mcc{Talk about La Crosse complications and sequelae somewhere. Probably here.}
+
+            \mcc{Specific features of LCV/HSV encephalitides.}
+
+            Historically, herpes simplex encephalitis has been near the top end of that spectrum. It is the most common cause of viral encephalitis in the United States, and, if untreated, results in approximately 70\% mortality, with approximately 97\% of survivors experiencing severe, long-term sequelae. Current treatment methods have reduced these numbers, in hospitalized patients, to 10\% mortality, and 75\% of survivors suffering from severe, long-term sequelae. While a vast improvement, this is still a horrifying prognosis.
+            
+            Because of this wide variability, and the substantial overall mortality, ``viral encephalitis'' is not as salient of a conceptual category as ``viral meningitis''. 
+
+        \subsubsection{Meningitis/Encephalitis spectrum}
+            The line between meningitis and encephalitis can be somewhat blurry. Many of the same pathogens cause each; this is particularly true for viruses. Sometimes, both conditions can be present simultaneously, a condition known as \textit{meningoencephalitis}. Even when this is not the case, symptomatic diagnosis can be tricky. Meningitis can present with minimal or no neck stiffness, and with alterations in mental status. Likewise, encephalitis can present with symptoms that include the full classic meningitis triad, and with minimal or no detectable alterations in mental status. Additionally, a viral infection of the meninges can in some cases produce inflammation of adjacent portions of the brain itself --- which is, by definition, encephalitis --- without the brain itself being infected, which is what ``viral encephalitis'' is normally understood to mean.
+
+            As a result of this, some retrospective studies have simply given up on distinguishing the two, lumping them together: ``a diagnosis of meningitis or encephalitis.'' But in discussing prospective work, I think this is best avoided. Nevertheless, given the blurriness of the boundaries and the lack of high-quality data distinguishing the two prognostically (check), I am inclined to make a two-way division into (1) meningitis, without encephalitis and (2) encephalitis, with or without meningitis, rather than a three-way division that would treat meningoencephalitis as a separate category of its own.
+        
+        \subsubsection{Reporting}
+            Neither meningitis nor encephalitis as such is a reportable disease in Florida, but bacterial and fungal meningitis both are, as are amebic encephalitis and HSV encephalitis. Additionally, all ``arboviral disease'' is reportable, whether under more specific labels (including St. Louis encephalitis, Venezuelan equine encephalitis, Eastern equine encephalitis, and \textbf{``California serogroup virus disease''}) or as under the catch-all category ``Arboviral diseases not otherwise listed.'' However, such reporting cannot occur without specific diagnosis.
+
+            \mcc{Stick the bit about seasonality somewhere suitable}
+
+        \section{Complications}
+            \mcc{Fill in}
+
+        \section{Others?}
+            \mcc{Unknown unknowns? And/or reference what is known about other serogroup viruses}
+
+    \section[Expected costs, given diseases]{Question 4: What is the expected cost of each acute disease state, conditional on experiencing it?}
+        %\mcc{Remember to hit the ``What do we mean by cost'' point}
+        Having considered questions about the various acute disease states that may (potentially) follow KEYV, and how likely experiencing each one is, it remains to consider the cost of each. It is important to recognize that the costs of disease are not exclusively financial; pain and suffering, both acute and chronic, may result as well, and should certainly be considered a ``cost.'' The same is true of disability --- again, both as experienced on a short-term basis during the disease state itself, and with regards to impairments resulting from long-term sequelae.
+
+        Nevertheless, it is conventional to express the sum of all these different types of costs in dollars. There is no reason that one must do so. But when resources are limited --- which is to say, in practice, always --- decisions about how best to allocate those limited resources will be most effective if all costs and benefits are expressed can be expressed in the same units. These units do not have to be dollars. But most costs of interventions are expressed in dollars to begin with, as are many of the costs of disease (and hence, the benefits of interventions that avert disease). Moreover, these costs all already expressed in readily-understood units (dollars, or other local currency, when considering interventions in other parts of the world), which is not true of pain or disability. \mcc{And debatable with regards to death.} 
+        
+        Therefore, by converting these other costs into dollar amounts, we can readily account for them in a cost-benefit analysis in way in which we could not otherwise. The exact dollar values that should be placed on them are apt to debatable at best. Indeed, there is a great deal of variation in the values assigned to a given disability not only by different researchers and organization, but by the same organization at different times, to the extent that the correlation (on a logit scale) between the disability weights (see next section) used by the WHO in official reports in 2004 and 2010 is only $r = 0.61$!\cite{GlobalDALYmethods_2000_2011}\mcc{Replace pdf file name with a proper bibtex citation}.
+
+        Looked at one way, this is frustrating, and somewhat disturbing. Looked at another, it amounts to disagreements about the relative undesirability of different negative outcomes being pushed into the open in a way that they likely would not be if a less quantitative method of attempting to account for all of those outcomes in cost-benefit analyses were used --- if such an attempt were made at all. In practice, the most common consequence of not attempting to treat all negative outcomes as commensurable is simply that some negative outcomes do not get weighed into decision-making at all.
+
+        \subsection{Overview of Quality-Adjusted Life Years (QALYs)}
+            \mct{Shifting terminology slightly based on history of the terms; ``QALYs'' is older and seems at least arguably more general (and to the extent that it's not more general, but strictly different, aligns more with my philosophical views anyway).}
+            Although this paper does not focus on the methods used to perform this conversion, it is perhaps useful to briefly summarize them, as they are commonly used today. At heart, it is a two-step process: Convert all non-economic costs of negative health outcomes (essentially, deaths or reductions in individuals' quality of life) into a common unit, and then equate that unit to a number of dollars in order to render it commensurable with economic costs. One such common unit, or family of common units, is Quality-Adjusted Life Years (QALYs) lost.
+            
+            \mct{Not sure if I need some statement like this: ``Depending on exact definition, Disability-Adjusted Life Years (DALYs) may be a form of QALYs, or a related-but-distinct unit. But this summary will not get into such details.''}
+
+            Broadly speaking, the number of QALYs lost due to a single death is equal to the dead person's life expectancy in years if that death had not occured, multiplied by a factor representing their expected quality of life under that same counterfactual. Similarly, the number of QALYs lost due to living with pain, disability, or some other quality of life--reducing condition is equal to the number of years living with that condition, multiplied by a factor representing the expected reduction in quality of life due to living with that condition, relative to living without it. How these factors should be calculated, and whether additional factors should be incorporated, such as time discounting for events that are expected to occur years into the future, are the subject of much debate.
+
+            In any event, once all non-economic loses are expressed in QALYs, expected values can be taken in order to determine the expected loss of QALYs due to each possible outcome. These, in turn, can be summed up.
+
+            Finally, there is the matter of equating a lost QALY to some number of dollars. In practice, this can be done by examining how much more a healthy individual has to be paid in order to take a job with an increased risk of death. \mcc{Give some sample values.}
+
+        \subsection{Contributing factors to the expected cost of each acute disease state, conditional on occurrence}
+            There are a number of both economic and non-economic costs to consider for each acute disease state. On the economic side, in the short term, there are hospitalization costs (both necessary and unnecessary), the cost of missed work or school (for the patient and potentially also for parents or other relatives). In the longer term, there may be costs associated with various sequelae. On the non-economic side, there is the risk of death, impairment during the acute condition, pain suffered during the acute condition, the risk of impairement and/or pain due to long term sequelae \mcc{Refer back here to the LACV section}, and heightened long-term risk of death (if any).
+
+            \mcc{Elaborate further.}
+
+    \section{Conclusion}
+        \mcc{Write this.}
+\end{document}
