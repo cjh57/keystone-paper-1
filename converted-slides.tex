@@ -26,10 +26,39 @@
 \newcommand{\mtc}[1]{\msg\tjh\cjh{#1}}
 \newcommand{\mtt}[1]{\msg\tjh\tjh{#1}}
 
-%enceph hosp 238567
-%enceph death x .056 = 13359.752
-%mening hosp
-%mening death 
+%MSMR military paper:
+%(236+230+1010)/(3205+724+2495) ~= 24% unspecified cause
+%2495/(3205+724+2495) to (724+2495)/(3205+724+2495) ~= 39%--50% unhospitalized
+%(and probably an underestimate since some of the individuals appear to already
+%have been hosp.)
+
+%Principles gives "approximately 20 cases per 100,000 population per year" total
+%aseptic mening
+%(w/cite), cause cannot be established in "one third or more" of asep men cases
+%in "viral isolation centers"
+
+%Khetsuriani gives 36,000 *viral* mening hosp / year average 1988-1999, rate: 14/100,000 * 327.2
+%million = 45808 ~= 46,000
+%all mening => 27.9/100,000 * 327.2 million = 91288.8 ~= 91,000
+%fraction viral = 50.2%
+%92% ``unspecified viral meningitis'' (hopefully out of date)
+%and 18.2% unspec as to general cause (in all meng)
+%3.8% of all mening cases => death; 0.4% of viral mening
+
+
+%enceph hosp 238,567 (2000--2010)
+%enceph death x .056 = 13,359.752
+%mening hosp 72000 (in 2006) from holmquist2008meningitis-related
+%mening death x .037 = 2664.0
+%okay, let's make these a little more comparable:
+%enceph hosp: 7.3 / 1e5 population * 327.2e6 = 23885.6 ~= 24,000 per annum
+% * .056 = 1337.5936
+%mening hosp: 24.1 hosp / 100,000 persons => 78855.2
+% * .037 = 2917.6423999999997
+%Total hosp: 23885.6 + 78855.2 = 102740.8 "over 100,000"
+%1337.5936+2917.6424 = 4255.236 ~= 4300
+%no etiology: (7.3*.349+24.1*.172) / (7.3+24.1)
+%"viral" (7.3*.121+24.1*.459)/(7.3+24.1)
 
 \title%[Keystone Virus in Florida]
 {Current Research: Keystone Virus in Florida (primarily), and Relevant Features of California Serogroup Viruses in General (as necessary)}
@@ -62,9 +91,7 @@
         \label{intro}
         %\mtc{Reminder for intro in general: hook, not schematic presentation; tweaking intro emphasis to emphasize high pts of paper one of two current priorities}
 
-        \mct{I need to tweak the following paragraph a bit to work with the numbers I have.}
-
-        Meningitis, the inflammation of the \textit{meninges} lining the brain, and encephalitis, the inflammation of the brain itself, are both potentially life-threatening emergencies. In the United States, it is estimated that they collectively account for XX hospitalizations and XX deaths per year, and many survivors experience long-lasting sequelae, ranging from XX to XX. The causes of meningitis and encephalitis are diverse, and an estimated XX\% of all cases never receive of a diagnosed etiology, while an additional XX\% are diagnosed as ``viral,'' generally on the basis of XX, without any more specific diagnosis. Keystone virus is a poorly-studied virus that may infect many people, and that is related to several other viruses that are known to cause meningitis and/or encephalitis.
+        Meningitis, the inflammation of the \textit{meninges} lining the brain, and encephalitis, the inflammation of the brain itself, are both potentially life-threatening emergencies. In the United States, it is estimated that they collectively account for over 100,000 hospitalizations and 4200 deaths per year\cite{george2014encephalitis,holmquist2008meningitis}, and many survivors experience long-lasting sequelae, which can be severe. The causes of meningitis and encephalitis are diverse, and an estimated 21\% of all cases never receive of a diagnosed etiology, while an additional 38\% are diagnosed as ``viral,'' without any more specific diagnosis\cite{george2014encephalitis,holmquist2008meningitis}. Keystone virus is a poorly-studied virus that may infect many people, and that is related to several other viruses that are known to cause meningitis and/or encephalitis.
 
         Keystone virus is a mosquito-transmitted virus in the California encephalitis serogroup of genus Orthobunyavirus. Previous studies suggest that approximately 20\% of individuals in the Tampa Bay area may have been previously infected with it, but evidence on the health effects of infection in humans is largely lacking. However, other viruses in the same serogroup are known to produce infections that typically are asymptomatic or characterized only by mild, generic symptoms (\eg, fever and rash), but that can also, more rarely result in meningitis and/or encephalitis. For example, La Crosse Virus (LACV), the California encephalitis serogroup virus that is generally considered to be the largest public health threat in the United states, causes encephalitis in an estimated XX\% of cases; as it is believed to be heavily underdiagnosed, and more severe infections are more likely to result in diagnosis, the actual frequency of encephalitis may be even lowered than the estimated one. In other cases, it manifests as [XX symptoms].\mct{Finding these estimates for LACV is proving harder than I thought. I will cut this or replace it with something else if necessary, but I'm leaving it in for now.}
 
@@ -111,7 +138,7 @@
                 Following historical usage, it is still very common to see these and other former or ambiguously \textit{Aedes} species referred to as \textit{Aedes} in literature outside the field of entomology, even by those who accept their reclassification. For this reason, in this paper, I will refer to these mosquitos as \textit{Aedes} species.
 
             \subsubsection{Keystone Virus}
-                Keystone virus was first isolated in 1962 in the Tampa Bay area during a St.\ Louis Encephalitis epidemic\cite{asdf}, and first identified as a distinct species in 1964\cite{bond1966california}. It is primarily transmitted by the floodwater mosquito \atl. \mcc{Mention \textit{infirmatus}}. Its point prevalence in mosquitos of that species has consistently been found to be approximately 0.003 across several surveys, conducted in different years\cite{watts1988maintenance,asdf}.\mcc{Watts only appears to give hard numbers for 1 year, but I know I've seen the same rough prevalence at least one elsewhere, and I think several.} The greatest amount of research on both vertebrate hosts and transmission dyanmics of KEYV was done in the Pokomoke Cypress Swamp in Maryland, between 1971 and 1985\cite{watts1988maintenance}.\mct{These are the dates I know research was ocurring in; I haven't seen explicit statements about start date or wrap-up, so it may be somewhat broader.} In that region, the primary vertebrate hosts of KEYV are rabbits and grey squirrels\cite{watts1988maintenance}. A smaller amount of research on the same subject, done in Florida, supports a major role for rabbits and grey squirrels as well.\cite{asdf} In addition, there is some evidence that cotton rats may also be important hosts in Florida\cite{jennings1970tamiami,taylor1971california}; cotton rats are not found as far North as the Pokomoke Swamp. In all of these primary hosts, KEYV appears to produce a 1--5 day viremia\cite{watts1988maintenance,jennings1968california}, with generally mild symptoms\cite{asdf}.
+                Keystone virus was first isolated in 1962 in the Tampa Bay area during a St.\ Louis Encephalitis epidemic\cite{asdf}, and first identified as a distinct species in 1964\cite{bond1966california}. It is primarily transmitted by the floodwater mosquito \atl. \mcc{Mention \textit{infirmatus}}. Its point prevalence in mosquitos of that species has consistently been found to be approximately 0.003 across several surveys, conducted in different years\cite{watts1988maintenance,asdf}.\mcc{Watts only appears to give hard numbers for 1 year, but I know I've seen the same rough prevalence at least one elsewhere, and I think several.} The greatest amount of research on both vertebrate hosts and transmission dyanmics of KEYV was done in the Pokomoke Cypress Swamp in Maryland, in the 1970s and 1980\cite{watts1988maintenance}. In that region, the primary vertebrate hosts of KEYV are rabbits and grey squirrels\cite{watts1988maintenance}. A smaller amount of research on the same subject, done in Florida, supports a major role for rabbits and grey squirrels as well.\cite{asdf} In addition, there is some evidence that cotton rats may also be important hosts in Florida\cite{jennings1970tamiami,taylor1971california}; cotton rats are not found as far North as the Pokomoke Swamp. In all of these primary hosts, KEYV appears to produce a 1--5 day viremia\cite{watts1988maintenance,jennings1968california}, with generally mild symptoms\cite{asdf}.
 
                 A number of other hosts, including whitetail deer and horses, show a high seroprevalence of neutralizing antibodies to KEYV when raised in enzootic areas, but do not appear to develop detectable viremia, and are therefore highly unlikely to play a significant role in transmission dynamics.\cite{asdf,asdf} While this may reduce their interest from a purely transmission modeling standpoint, it raises the potential, at least for horses, of their use as for sentinel surveillance.\cite{asdf}
 
@@ -172,7 +199,7 @@
             Combined with serosurvey data, and what we know about other California serogroup viruses, this all raises the question of whether Keystone virus is in fact a relatively common childhood infection in Florida, that is severely underdiagnosed for a variety of reasons. First of all, infections may generally be asymptomatic. Moreover, evidence from presumptive reservoir hosts, weanling laboratory mice\mcc{Confirm this---I know that unlike sucklings, they don't \textit{die} if infected naturally (as opposed to direct intracerebral innoculation)}, and the one directly observed human infection to date all point to infections that, when they do present with symptoms, present most frequently with mild and non-specific symptoms that are unlikely to provoke anywhere near the level of effort that was involved in obtaining a specific etiology for the 2016 case. Presumptively viral fever and rash are often not being worked up beyond exclusion of major pathogens of concern.
         
             \mcc{Need to email Lednicky re: How old or new unbiased (RT-)PCR approach is. They cite it to another Lednicky \textit{et al.} paper published in 2014, which appears to neither specifically describe it as novel, nor to cite it to another paper.}
-            Furthermore, there may be some difficulty in detecting infection even when looking for it: In the 2016 case, after screening of both saliva and urine for a variety of viral RNAs using RT-PCR came up negative, the patient's saliva and urine were screened again using a procedure designed to amplify any viral RNA or DNA present, using PCR or RT-PCR, followed by TA-cloning\mct{From the wikipedia article, I at least sort of grasp this; let me know if there's anything you think I need to add, or remove} into plasmids and Sanger sequencing. Of 20 plasmids containing inserts amplified from urine and 20 containing inserts amplified from saliva, only 1 (from urine) was positive for Keystone. It is not hard to imagine that, simply by chance, no plasmids would have been positive, and detection would not have occurred. Moreover, because this approach depends on sequencing viral (c)DNA that has been amplified at random, and then comparing the results to sequences from the GenBank sequence database, it could not have identified Keystone infection even in principle prior to the accession of the matching small-genome sequences.\mcc{So when \textit{were} these added?}
+            Furthermore, there may be some difficulty in detecting infection even when looking for it: In the 2016 case, after screening of both saliva and urine for a variety of viral RNAs using RT-PCR came up negative, the patient's saliva and urine were screened again using a procedure designed to amplify any viral RNA or DNA present, using PCR or RT-PCR, followed by TA-cloning into plasmids and Sanger sequencing. Of 20 plasmids containing inserts amplified from urine and 20 containing inserts amplified from saliva, only 1 (from urine) was positive for Keystone. It is not hard to imagine that, simply by chance, no plasmids would have been positive, and detection would not have occurred. Moreover, because this approach depends on sequencing viral (c)DNA that has been amplified at random, and then comparing the results to sequences from the GenBank sequence database, it could not have identified Keystone infection even in principle prior to the accession of the matching small-genome sequences, the earliest of which (U12801.1) was added in 1995\cite{https://www.ncbi.nlm.nih.gov/nuccore/U12801.1}---over two decades ago now, but still closer to the present day than to when Keystone virus was first discovered. The other two matching suquences (xx and xx) were added far more recently, in 2015\cite{asdf}.
 
             If Keystone virus infection is in fact a reasonably common childhood infection in Florida, unrecognized as such until now, this raises the question of whether its public health significance has been likewise underestimated.
 
