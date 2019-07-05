@@ -6,3 +6,6 @@
 nohup.out
 *.bbl
 *.blg
+*-blx.bib
+*.bcf
+*.run.xml
