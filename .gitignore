@@ -3,7 +3,7 @@
 *.pdf
 *.swp
 *~
-nohup.out
+*.out
 *.bbl
 *.blg
 *-blx.bib
