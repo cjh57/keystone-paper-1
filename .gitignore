@@ -2,10 +2,11 @@
 *.log
 *.pdf
 *.swp
-*~
+*~*
 *.out
 *.bbl
 *.blg
 *-blx.bib
 *.bcf
 *.run.xml
+*.rtf
