@@ -1,12 +1,25 @@
-*.aux
-*.log
-*.pdf
-*.swp
+#temporary files
 *~*
+*.swp
+*.aux
+*.tmp
+#nohup, also an intermediate file for tex4ht
 *.out
+#intermediate files
+*.log
 *.bbl
 *.blg
 *-blx.bib
 *.bcf
 *.run.xml
+*.4tc
+*.4ct
+*.dvi
+*.idv
+*.lg
+*.xref
+#final output documents
 *.rtf
+*.odt
+*.pdf
+*.docx
