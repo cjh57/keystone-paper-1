@@ -1,0 +1,55 @@
+\documentclass[12pt]{article}
+\usepackage[hidelinks]{hyperref}
+\usepackage[backend=bibtex,hyperref=true,backref=true]{biblatex}
+\usepackage{mathtools}
+\usepackage[margin=1in]{geometry}
+\DeclarePairedDelimiter{\parens}{\lparen}{\rparen}
+
+\usepackage[english]{babel}
+\usepackage[dvipsnames]{xcolor}
+%\usepackage{hyperref}
+%\newcommand{\cjh}[1]{\textcolor{blue}{(cjh: #1)}}
+%\newcommand{\stupid}[1]{#1}
+%\newcommand{\Ae}{\stupid{\textit{Ae.\ aegypti}}}
+
+\newcommand{\alb}{\textit{Ae.\ albopictus}}
+\newcommand{\atl}{\textit{Ae.\ atlanticus}}
+\newcommand{\eg}{\textit{e.g.}}
+\newcommand{\ie}{\textit{i.e.}}
+
+\newcommand{\cjh}{\textcolor{blue}{cjh}}
+\newcommand{\tjh}{\textcolor{red}{tjh}}
+\newcommand{\jal}{\textcolor{green}{jal}}
+\newcommand{\jgm}{\textcolor{purple}{jgm}}
+
+\newcommand{\msg}[3]{(#1 $\rightarrow$ #2: #3)}
+
+\newcommand{\mcc}[1]{\msg\cjh\cjh{#1}}
+\newcommand{\mct}[1]{\msg\cjh\tjh{#1}}
+\newcommand{\mtc}[1]{\msg\tjh\cjh{#1}}
+\newcommand{\mtt}[1]{\msg\tjh\tjh{#1}}
+\newcommand{\mjc}[1]{\msg\jal\cjh{#1}}
+\newcommand{\mgc}[1]{\msg\jgm\cjh{#1}}
+
+\title%[Keystone Virus in Florida]
+{Ecology and Public Health Burden of Keystone Virus in Florida \\ Supplementary Information}
+
+\author%[chrishen@umich.edu] % (optional, use only with lots of authors)
+{Christopher J. Henry, John A. Lednicky, J. Glenn Morris, Thomas J. Hladish}
+
+\date{\today}
+
+%\bibliographystyle{plain}
+\addbibresource{keystone.bib}
+
+\begin{document}
+    \maketitle
+    
+    \section{Pokomoke Cypress Swamp horizontal transmission}
+        Orally-infected \atl\ were minimally effective at transmitting Keystone to suckling mice they fed upon: Out of 82 bites, only 1 produced a lethal infection (the primary endpoint considered; Keystone infection has a high lethality in suckling mice); 50 of the surviving mice were tested for antibodies, and only 7 were positive.\cite{watts1988maintenance} \mjc{Be careful. Suckling mice, which do not have a fully formed immune system, may not respond well.   So be sure to add more info to explain this experiment...or people will challenge the validity of your statement.} Evidence from previous dose-response experiments suggests that these 7 seropositive mice likely received very low doses of KEYV, and would have been minimally viremic at most. In contrast, 33 out of 46 mosquitoes \mgc{In a modern context, this type of work is likely to be considered questionable or wrong: infected by intrathoracic innoculation} produced lethal infections in mice they were fed on\cite{watts1988maintenance}, with 6 of the remaining 13 producing seroconversion in the fed-upon mice. Given this discrepancy, and evidence of rapid infection of sentinel rabbits exposed during seasons of peak \atl\ activity\cite{jennings1968california,leduc1978natural}, this raises the possibility that transovarially-infected (vertically-infected) \atl\ may be substantially more efficient transmitters than horizontally-infected \atl. \mjc{This explanation may not be viewed favorably in a modern context. What matters is whether the virus is in the salivary glands, and also, the amount of virus therein.} \mgc{I agree – be careful with this statement – concepts are somewhat out of date.}
+            
+            %\mcc{Possibly stick a mention of the TOT results in watts1988maintenance here}
+
+    \printbibliography{}
+
+\end{document}
